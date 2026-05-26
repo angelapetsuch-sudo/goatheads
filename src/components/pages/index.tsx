@@ -57,7 +57,7 @@ function HeroSection() {
             {/* Parallax background */}
             <motion.div className="absolute inset-0 scale-110" style={{ y }}>
                 <img
-                    src="https://images.unsplash.com/photo-1553013746-7b0be5ef5c6b?w=1920&q=80&fit=crop"
+                    src="/assets/bg-1.jpg"
                     alt="Goats clearing brush on a sunny field"
                     className="w-full h-full object-cover"
                 />
@@ -202,7 +202,7 @@ function WhatIsSection() {
                         <div className="relative">
                             <div className="absolute -top-4 -left-4 w-full h-full rounded-2xl bg-accent/20 -z-10" />
                             <img
-                                src="https://images.unsplash.com/photo-1599909533730-baa2819a9b5a?w=800&q=80&fit=crop"
+                                src="/assets/goats/dixi.jpg"
                                 alt="Herd of goats grazing on a hillside"
                                 className="w-full h-80 object-cover rounded-2xl shadow-xl"
                             />
@@ -561,7 +561,7 @@ function CtaSection() {
                     <FadeIn delay={0.15}>
                         <div className="relative">
                             <img
-                                src="https://images.unsplash.com/photo-1594629003257-e5427f4f7715?w=600&q=80&fit=crop"
+                                src="/assets/goats/stevie-nicks.jpg"
                                 alt="A friendly goat ready to work"
                                 className="w-full max-w-sm mx-auto rounded-2xl shadow-2xl object-cover h-72"
                             />

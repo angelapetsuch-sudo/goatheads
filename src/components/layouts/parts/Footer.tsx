@@ -36,7 +36,7 @@ export default function Footer() {
                     <div>
                         <div className="mb-4">
                             <img
-                                src="/assets/sdkfdmsdmf.svg"
+                                src="/assets/goatheads-logo.svg"
                                 alt="Goatheads MN Land Clearing Co."
                                 className="h-40 w-auto object-contain"
                             />
