@@ -8,8 +8,12 @@
 export default function DemoContent() {
     return (
         <div className="min-h-screen">
-            {/* Hero Section with Theme-Aware Gradient - Compact for above-the-fold */}
-            <section className="relative overflow-hidden py-8 px-4" style={{ background: `linear-gradient(to bottom right, hsl(var(--primary)), hsl(var(--secondary)))` }}>
+            {/* Hero Section with Background Image - Compact for above-the-fold */}
+            <section className="relative overflow-hidden py-8 px-4" style={{
+                backgroundImage: `linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(/assets/bg-1.jpg)`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
                 <div className="max-w-4xl mx-auto text-center relative z-10">
                     <p className="text-lg md:text-xl text-white/90 mb-4">
                         Demo Content, will be replaced with your app

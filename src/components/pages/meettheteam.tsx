@@ -147,7 +147,7 @@ function GoatCard({ goat }: { goat: Goat }) {
       style={{ backgroundColor: 'hsl(40 21% 89%)' }}
     >
       <img
-        src={`/goats/${goat.file}.jpg`}
+        src={`/assets/goats/${goat.file}.jpg`}
         alt={displayName}
         loading="lazy"
         onLoad={() => setLoaded(true)}
