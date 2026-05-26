@@ -13,7 +13,7 @@ The Website layout provides the structural container for website pages. For most
 **Step 1: Use RootLayout in `App.tsx`**
 
 ```tsx
-import RootLayout from "./layouts/RootLayout";
+import RootLayout from './components/layouts/RootLayout';
 
 const router = createBrowserRouter([
   {

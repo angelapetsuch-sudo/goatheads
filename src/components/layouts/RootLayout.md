@@ -73,7 +73,7 @@ Open `src/App.tsx` and wrap your routes with RootLayout:
 
 ```tsx
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import RootLayout from "./layouts/RootLayout";
+import RootLayout from './components/layouts/RootLayout';
 import { routes } from "./routes";
 
 // Apply to all routes

@@ -1,8 +1,8 @@
 import { type ReactElement } from 'react';
 
-import Footer from '@/layouts/parts/Footer';
-import Header from '@/layouts/parts/Header';
-import Website from '@/layouts/Website';
+import Footer from '@/components/layouts/parts/Footer';
+import Header from '@/components/layouts/parts/Header';
+import Website from '@/components/layouts/Website';
 
 /**
  * Root layout component that wraps all pages with consistent header and footer

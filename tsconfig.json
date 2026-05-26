@@ -29,7 +29,6 @@
                 "./src/*"
             ]
         },
-        "baseUrl": "."
     },
     "include": [
         "src",
