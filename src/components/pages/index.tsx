@@ -202,7 +202,7 @@ function WhatIsSection() {
                         <div className="relative">
                             <div className="absolute -top-4 -left-4 w-full h-full rounded-2xl bg-accent/20 -z-10" />
                             <img
-                                src="/assets/goats/dixi.jpg"
+                                src="/assets/bg-3.jpg"
                                 alt="Herd of goats grazing on a hillside"
                                 className="w-full h-80 object-cover rounded-2xl shadow-xl"
                             />
