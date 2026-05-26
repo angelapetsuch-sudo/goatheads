@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { ArrowLeft } from 'lucide-react';
 
 // ─── Fade-in wrapper ────────────────────────────────────────────────────────
 function FadeIn({
@@ -96,19 +95,12 @@ const allGoats = [
 // ─── HEADER SECTION ───────────────────────────────────────────────────────────
 function HeaderSection() {
     return (
-        <section className="bg-primary py-20 relative overflow-hidden">
+        <section className="bg-primary pt-32 md:pt-48 pb-20 relative overflow-hidden">
             <div
                 className="absolute -top-20 -right-20 w-96 h-96 rounded-full opacity-10"
                 style={{ background: 'hsl(var(--accent))' }}
             />
             <div className="container mx-auto px-6 relative z-10">
-                <Link
-                    to="/"
-                    className="inline-flex items-center gap-2 text-white/80 hover:text-white font-medium mb-6 transition-colors"
-                >
-                    <ArrowLeft size={18} />
-                    Back to Home
-                </Link>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
