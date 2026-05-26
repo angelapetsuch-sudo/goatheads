@@ -57,7 +57,7 @@ function HeroSection() {
             {/* Parallax background */}
             <motion.div className="absolute inset-0 scale-110" style={{ y }}>
                 <img
-                    src="/airo-assets/images/pages/home/hero"
+                    src="/assets/goats/yoda-hans-chewy.jpg"
                     alt="Goats clearing brush on a sunny field"
                     className="w-full h-full object-cover"
                 />
@@ -202,7 +202,7 @@ function WhatIsSection() {
                         <div className="relative">
                             <div className="absolute -top-4 -left-4 w-full h-full rounded-2xl bg-accent/20 -z-10" />
                             <img
-                                src="/airo-assets/images/pages/home/goat-herd"
+                                src="/assets/goats/dixi.jpg"
                                 alt="Herd of goats grazing on a hillside"
                                 className="w-full h-80 object-cover rounded-2xl shadow-xl"
                             />
@@ -377,7 +377,7 @@ function GoatPreviewCard({ file, names, role }: { file: string; names: string[];
             style={{ aspectRatio: '3 / 4', backgroundColor: 'hsl(var(--muted-foreground) / 0.08)' }}
         >
             <img
-                src={`/goats/${file}.jpg`}
+                src={`/assets/goats/${file}.jpg`}
                 alt={displayName}
                 loading="lazy"
                 onLoad={() => setLoaded(true)}
@@ -441,10 +441,10 @@ function ShowcaseSection() {
 
                 <FadeIn delay={0.4} className="text-center mt-10">
                     <Link
-                        to="/team"
+                        to="/goats"
                         className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all duration-200"
                     >
-                        Meet all 24 goats
+                        Meet the rest of the herd
                         <ArrowRight size={16} />
                     </Link>
                 </FadeIn>
@@ -561,7 +561,7 @@ function CtaSection() {
                     <FadeIn delay={0.15}>
                         <div className="relative">
                             <img
-                                src="/airo-assets/images/pages/home/goat-portrait"
+                                src="/assets/goats/stevie-nicks.jpg"
                                 alt="A friendly goat ready to work"
                                 className="w-full max-w-sm mx-auto rounded-2xl shadow-2xl object-cover h-72"
                             />
